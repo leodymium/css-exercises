@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
@@ -54,7 +55,7 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .left-links {
