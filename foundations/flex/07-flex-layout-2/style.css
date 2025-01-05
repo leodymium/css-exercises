@@ -4,22 +4,37 @@ body {
   min-height: 100vh;
 }
 
+.page {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  width: 100%;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  width: 25%;
+}
+
+.card_case {
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .card {
